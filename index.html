@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>웹페이지 만들기</title>
+    <style>
+        .container {
+            display: flex;
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        .container2 {
+            display: flex;
+            width: 1000px;
+            height: 500px;
+            margin: 0 auto;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            justify-items: center;
+        }
+
+        .grid-box {
+            display: grid;
+            grid-template-rows: repeat(2, 100x);
+            grid-template-columns: repeat(3, 330px);
+            width: 1000px;
+            height: 450px;
+            margin: 0 auto;
+            justify-content: center;
+        }
+
+        .nav,
+        .left,
+        .img1 {
+            display: flex;
+            height: 60px;
+            align-items: center;
+        }
+
+        .nav {
+            background-color: rgb(255, 255, 255);
+
+        }
+
+        .left {
+            margin-right: auto;
+
+        }
+
+        .item {
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        .img1 {
+            width: 95px;
+            height: 60px;
+        }
+
+        .img2 {
+            background-image: url(../wp-week04/img/animation.jpg);
+            width: 100%;
+            height: 450px;
+            background-size: cover;
+        }
+
+        .img2 .content {
+            position: absolute;
+
+            color: white;
+            z-index: 2;
+
+        }
+
+        .content {
+            justify-content: end;
+        }
+
+        .special1 {
+            grid-column: span 2;
+            width: 600px;
+        }
+
+        .special2 {
+            grid-column: span 3;
+            margin: -10px auto;
+        }
+
+        footer {
+            background-color: #777;
+            text-align: center;
+            color: white;
+            width: 1000px;
+            height: 100px;
+            margin: -35px auto;
+        }
+
+        .image {
+            float: left;
+            width: 170px;
+            height: 80px;
+            margin: 0px 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="nav container">
+        <!-- 로고자리 -->
+        <div>
+            <img class="img1" src="../wp-week04/img/cbnulogo.jpg">
+        </div>
+        <div class="left">
+            <div class="item">Menu1</div>
+            <div class="item">Menu2</div>
+            <div class="item">Menu3</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="img2">
+            <div class="content">
+                <h1>저의 취미를 소개합니다!</h1>
+                <h3>1.맛집 탐방하기</h3>
+                <h3>2.음악감상하기</h3>
+                <h3>3.넷플릭스 시청하기</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="grid-box">
+            <div class="special1">
+                <h3>1. 맛집 탐방하기</h3>
+                <p>저는 인스타그램이나 sns에서 유명한 맛집을 찾아다니며 맛있는 것을 먹는 것을 즐겨합니다. 유명한 장소 뿐만아니라 숨어있는 맛집을 찾는 것도 좋아합니다. 맛집 탐방은 주로 친한
+                    친구와 하고 카페도 많이 찾아다니며 사진 찍는 것을 좋아합니다.</p>
+                <p>맛집과 카페들을 다니며 음식사진을 찍은 것을 인스타그램이나 페이스북과 같은 sns에 게시하며 사람들과 일상을 공유하는 것을 즐겨합니다. 나의 일상도 공유하고 사람들의 일상도 보면서
+                    다양한 것을 간접체험할 수 있는 느낌이 들기 때문입니다.</p>
+            </div>
+            <div>
+                <h3>2. 음악감상하기</h3>
+                <p>저는 음악감상하는 것을 좋아하고 즐겨합니다. 자기전에, 아침에 일어나서 과제할 때, 씻을 때, 밥먹을 때, 이동할 때 등등 일상생활에서 음악과 함께 생활한다고도 할 수 있을 정도로
+                    음악을 듣는 것을 좋아합니다. 트렌디한 음악, 인디 음악, 힙한 음악 등 장르도 가리지 않고 모든 장르를 좋아합니다.
+                </p>
+            </div>
+            <div class="special2">
+                <h3>3. 넷플릭스 시청하기</h3>
+                <img src="../wp-week04/img/netflix.png" class="image">
+                <p>저는 여가시간에 넷플릭스로 드라마나 영화, 예능을 보는 것을 좋아합니다. 최근에 즐겨보는 한국드라마는 기황후인데요. 넷플릭스는 옛날 드라마, 영화들이 많아서 추억의 것들을 보고 싶을 때 애용합니다. 또한 다양한 장르의 컨텐츠들이 많아서 여가시간을 보내기에 가장 좋은 어플리케이션이라고 생각합니다.
+                주로 집에서 취미생활을 하는 것을 좋아하는 저에게는 넷플릭스가 선물과 같은 존재라고 할 수 있습니다. 장소에 구애받지 않고 월 이용료만 지불하면 무제한으로 내가 원하는 컨텐츠를 볼 수 있는 것이 가장 큰 장점이라고 생각합니다.
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright © 2020 web-programming.</p>
+    </footer>
+</body>
+
+</html>
