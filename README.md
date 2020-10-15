@@ -5,17 +5,17 @@
 
  #### (1) 메뉴바
 
-                -사용 클래스 : nav, container, img1, left, item
+        -사용 클래스 : nav, container, img1, left, item
 
-                -display:flex 속성을 사용해서 로고와 메뉴1,2,3을 구성함
+        -display:flex 속성을 사용해서 로고와 메뉴1,2,3을 구성함
 
-                -float:left 속성을 사용해서 충북대학교 로고를 메뉴 왼쪽에 줌
+        -float:left 속성을 사용해서 충북대학교 로고를 메뉴 왼쪽에 줌
 
-                -container로 코드를 감싸면서 전체 페이지의 크기가 가로는 1000px로 고정함
+        -container로 코드를 감싸면서 전체 페이지의 크기가 가로는 1000px로 고정함
 
-                -container의 margin을 상하는 0, 좌우는 auto로 주어서 가운데로 오도록 설정함
+        -container의 margin을 상하는 0, 좌우는 auto로 주어서 가운데로 오도록 설정함
 
-                -left클래스에서 margin-right를 auto로 주어서 메뉴들이 좌쪽으로 치우칠 수 있도록 함
+        -left클래스에서 margin-right를 auto로 주어서 메뉴들이 좌쪽으로 치우칠 수 있도록 함
 
 
   #### (2) 대형 사진
