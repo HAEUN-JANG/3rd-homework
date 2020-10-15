@@ -1,41 +1,52 @@
 # 웹페이지 만들기 실습 
 ### 1. 과제 주제 설명
 ### 2. 주요 코드 설명
- <메뉴바>
+-------------------------------------------------------------------
 
- -사용 클래스 : nav, container, img1, left, item
+ #### (1) 메뉴바
 
- -display:flex 속성을 사용해서 로고와 메뉴1,2,3을 구성함
+                -사용 클래스 : nav, container, img1, left, item
 
- -float:left 속성을 사용해서 충북대학교 로고를 메뉴 왼쪽에 줌
+                -display:flex 속성을 사용해서 로고와 메뉴1,2,3을 구성함
 
- -container로 코드를 감싸면서 전체 페이지의 크기가 가로는 1000px로 고정함
+                -float:left 속성을 사용해서 충북대학교 로고를 메뉴 왼쪽에 줌
 
- -container의 margin을 상하는 0, 좌우는 auto로 주어서 가운데로 오도록 설정함
+                -container로 코드를 감싸면서 전체 페이지의 크기가 가로는 1000px로 고정함
 
- -left클래스에서 margin-right를 auto로 주어서 메뉴들이 좌쪽으로 치우칠 수 있도록 함
+                -container의 margin을 상하는 0, 좌우는 auto로 주어서 가운데로 오도록 설정함
+
+                -left클래스에서 margin-right를 auto로 주어서 메뉴들이 좌쪽으로 치우칠 수 있도록 함
 
 
- <대형 사진>
+  #### (2) 대형 사진
 
- -사용 클래스 : container, img2, content
+                -사용 클래스 : container, img2, content
 
- -메뉴바와 같은 크기의 컨테이너를 주어서 통일성 있도록 코드를 구현함
+                -메뉴바와 같은 크기의 컨테이너를 주어서 통일성 있도록 코드를 구현함
 
- -img2클래스에서 background-image에 url을 주고 width는 100%로 해서 container의 width에 꽉 찰 수 있도록 구현하였음
- 
- -사진 위로 글씨가 보일 수 있도록 하기 위해 content클래스를 사용하였음
+                -img2클래스에서 background-image에 url을 주고 width는 100%로 해서 container의 width에 꽉 찰 수 있도록 구현하였음
 
- <내용>
+                -사진 위로 글씨가 보일 수 있도록 하기 위해 content클래스를 사용하였음
 
- -사용 클래스 : container2, grid-box, special1, special2, image
- -container2 클래스를 사용해서 container와 같은 넓이를 주어서 새로운 container를 만들었음
-  (!! 되도록이면 container를 사용해서 위에 그림이랑 한꺼번에 넣는 것을 시도해보았는데 해결되지 않아 새로운 container2라는 클래스를 적용함 !!)
- -grid-box에서 display:grid 속성을 주어서 내용을 채워보았음
- -grid 속성에서 grid-template-columns 속성을 사용해서 열 넓이를 330px씩 줘서 삼등분씩 될 수 있도록 하였음
- -1번 맛집 탐방하기의 경우, special1 스타일에서 grid-column 속성을 span 2를 해줘서 가로로 두칸을 차지할 수 있도록 하였음
- -3번 넷플릭스 시청하기의 경우, special2 스타일에서 grid-column 속성을 span 3을 해줘서 가로로 세칸을 차지할 수 있도록 하였음
- -float:left 속성을 이용해서 3번. 넷플릭스 시청하기의 경우, 사진을 첨부하였음
+
+#### (3) 내용
+
+                -사용 클래스 : container2, grid-box, special1, special2, image
+
+                -container2 클래스를 사용해서 container와 같은 넓이를 주어서 새로운 container를 만들었음
+
+                (!! 되도록이면 container를 사용해서 위에 그림이랑 한꺼번에 넣는 것을 시도해보았는데 해결되지 않아 새로운 container2라는 클래스를 적용함 !!)
+
+                -grid-box에서 display:grid 속성을 주어서 내용을 채워보았음
+
+                -grid 속성에서 grid-template-columns 속성을 사용해서 열 넓이를 330px씩 줘서 삼등분씩 될 수 있도록 하였음
+
+                -1번 맛집 탐방하기의 경우, special1 스타일에서 grid-column 속성을 span 2를 해줘서 가로로 두칸을 차지할 수 있도록 하였음
+
+                -3번 넷플릭스 시청하기의 경우, special2 스타일에서 grid-column 속성을 span 3을 해줘서 가로로 세칸을 차지할 수 있도록 하였음
+
+                -float:left 속성을 이용해서 3번. 넷플릭스 시청하기의 경우, 사진을 첨부하였음
+
 
  <footer부분>
  -사용 클래스 : footer 
